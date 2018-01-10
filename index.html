@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://use.fontawesome.com/83a7aabace.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <style>
+        body {
+        		font-family: 'Lato', sans-serif;
+        	}
+            h1 { 
+            margin: 0;
+            padding: 50px;
+            }
+    
+            .main-container {
+            	background-color: white;
+            	margin: 60px 120px;
+            	border: 1px solid #aa3311;
+            }
+    
+            header {
+    			background-color: #aa3311;
+                background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23ffffff' fill-opacity='0.34'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    			font-family: 'Indie Flower', cursive;
+    			color: #fff;
+            }
+    
+            #title-box { 
+            text-align: center;
+            margin: 0;
+            font-size: 48px;
+            }
+            #nav-bar { 
+            text-align: center;
+            margin: 0;
+            padding: 25px;
+            padding-top: 0px;
+    
+            }
+            #nav-bar > ul {
+           
+            	list-style: none;
+            }
+    
+            #nav-bar > ul > li {
+            	padding-top: 12px;
+            }
+    
+            #nav-bar > ul > li > a {
+            	color: white;
+            	font-size: 18px;
+            	text-decoration: none;
+                transition: all 1s;
+
+            }
+            
+
+            (#nav-bar > ul > li > a) :hover {
+                transform: scale(1.1);
+            }
+
+            #about-box {
+    	        position:block;
+    	        padding-top: 50px;
+            }
+    
+            h3.section-header { 
+    	        margin:0;
+    	        padding:40px;
+    	        border-bottom: 1px solid #C5B4AD;
+    	        margin-bottom: 40px;
+    	        font-size: 24px;
+            }
+
+    
+            #neu {
+            	display: inline-block;
+            	float: left;
+            	width: 50%;
+            }
+            #next {
+            	float: right;
+            	display: inline-block;
+            	width: 50%;
+            }
+
+            
+            #WHOOP{
+            	text-align:center;
+            	display:inline-block;
+
+            }
+
+            .section {
+				padding-right: 160px;
+            	padding-bottom: 160px;
+            	padding-left: 160px;
+            	text-align: center;
+            }
+            .section:last-child {
+  				padding-bottom: 40px;
+			}
+
+
+            #contact-info-box{  
+            	text-align:center;
+            }
+
+            .clearfix::after {
+	            content: "."; 
+	            visibility: hidden; 
+	            display: block; 
+	            height: 0; 
+	            clear: both;
+            }
+
+            .center-table {
+            	margin: 0px auto;
+            }
+    </style>
+
+</head>
+
+<body>
+    <div class="main-container">
+        <header>
+            <div id="title-box">
+                <h1> Halah Abuateeq</h1>
+            </div>
+            <div id="nav-bar">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#academic-bg-box">Academic Background</a></li>
+                    <li><a href="#work-experience-box">Work Experience</a></li>
+                    <li><a href="#contact-info-box">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div id="about-box" class="section">
+            <h3 class="section-header">About</h3>
+            <p> I am an aspiring web developer with a background in electrical hardware engineering and PCB design and implimentation in the wearable tech industry. I am originally from Saudi Arabia, but I graduated from Northeastern University in Boston
+                Massachusetts with a bachlor's degree in Electrical Engineering. I am currently located in Malaysia in order to explore and grow my career as a software developer. </p>
+        </div>
+       
+        <div id="academic-bg-box" class="section">
+            <h3 class="section-header">Academic Background</h3>
+            <div id="neu">
+                <img src="http://www.kaplanconstructs.com/wp-content/uploads/2015/11/northeasternuniversity_logoseal.png" alt=“NEU LOGO” width=100>
+                <br/><br/><strong> Northeastern University</strong> [2013 -2017]
+                <br/> Bachelor of Science in Electrical Engineering
+            </div>
+            <div id="next">
+                <img src="https://media-exp2.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAQtAAAAJDU4ZjBjNGNmLWI3MDMtNGUzMy05NDk3LTU3NWJhMjllYmZjNQ.png" alt=“NEXT LOGO” width=100>
+                <br/><br/><strong> Next Academy</strong> [January 2018 -currently]
+                <br/>Enrolled in the Full-Stack-Web-development course.
+            </div>
+
+            <div class='clearfix'></div>
+        </div>
+
+
+
+
+        <div id="work-experience-box" class="section">
+            <h3 class="section-header"> Work Experience </h3>
+
+            <div id="WHOOP">
+                <img src="https://pbs.twimg.com/profile_images/645799167185387520/suwa9XCg.png" style="border-radius: 20%;" alt=“WHOOP LOGO” width=100>
+                <br/><br/><strong> WHOOP </strong>[January 2016 - June 2016]
+                <br/>During my time at WHOOP, I had the opportunity to work alongside the hardware electrical, firmware and mechanical teams to prototype second generation of the WHOOP strap athletic performance optimization wearable.
+            </div>
+        </div>
+
+        <div id="contact-info-box" class="section">
+            <h3 class="section-header">Contact info</h3>
+            <table class="center-table">
+                <tr>
+                    <td><i class="fa fa-envelope-o" aria-hidden="true" style="font-size: 20px;"></i><strong>Email:</strong></td>
+                    <td><a href="mailto:halah.abuateeq@gmail.com">halah.abuateeq@gmail.com</a></td>
+                </tr>
+                <tr>
+                    <td>
+                    <i class="fa fa-linkedin-square" aria-hidden="true" style="font-size: 25px;"></i><strong>LinkedIn: </strong>
+                    </td>
+                    <td> <a href="linkedin.com/in/halah-abuateeq">  linkedin.com/in/halah-abuateeq </a> </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
